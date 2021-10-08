@@ -41,6 +41,10 @@ export const Column2 = styled.div`
     padding-bottom: 90px;
     position: relative;
   }
+  &:hover {
+    transition: 200ms ease-in;
+    transform: scale(1.5);
+  }
 `;
 export const Column3 = styled.div`
   display: flex;
@@ -78,8 +82,9 @@ export const FooterLink = styled.a`
   text-decoration: none;
 
   &:hover {
-    color: green;
+    color: yellow;
     transition: 200ms ease-in;
+    transform: scale(1.5);
   }
 `;
 

@@ -30,13 +30,7 @@ const Footer = () => {
         </Column3>
         <Row>
           <Column2>
-            <div
-              style={{
-                marginTop: "-50px",
-                marginBottom: "-30%",
-                //   alignSelf: "flex-start",
-              }}
-            >
+            <div>
               <img src={Logo} alt="Logo" height="100%" width="100%" />
             </div>
           </Column2>
