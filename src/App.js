@@ -10,6 +10,7 @@ import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
 import Navbar from "./statics/Navbar/Navbar";
+import Footer from "./statics/Footer/Footer";
 // import Topnav from "./Components/Navbar/Topnav";
 
 const App = () => {
@@ -32,6 +33,7 @@ const App = () => {
           <Redirect to="/" />
         </Switch>
       </main>
+      <Footer />
     </Router>
   );
 };

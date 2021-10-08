@@ -16,7 +16,10 @@
 .navbar-logo {
   /* padding-left: 15px; */
   color: #fff;
+  font-weight: bold;
+  padding-left: 15px;
   pointer-events: none;
+  font-size: 22px;
 }
 
 .navbar-mainbg {
