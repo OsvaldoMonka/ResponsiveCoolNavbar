@@ -9,7 +9,7 @@ import {
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
-import Navbar from "./Components/Navbar/Navbar";
+import Navbar from "./statics/Navbar/Navbar";
 // import Topnav from "./Components/Navbar/Topnav";
 
 const App = () => {

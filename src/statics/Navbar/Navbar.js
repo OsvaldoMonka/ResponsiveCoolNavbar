@@ -7,7 +7,7 @@ import InstagramIcon from "@material-ui/icons/Instagram";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import { Link } from "react-router-dom";
 import { Button } from "@material-ui/core";
-import Logo from "./../../images/logoAPP.png";
+import Logo from "../../assets/images/ie3.png";
 
 const Navbar = () => {
   function animation() {
@@ -49,29 +49,30 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-mainbg">
       <NavLink className="navbar-brand navbar-logo" to="/" exact>
-        <img src={Logo} alt="Logo" height="40px" width="auto" />
+        {/* <img src={Logo} alt="Logo" height="64px" width="170px" /> */}
+        <div className="navbar-name">IE-Consulting Albania</div>
       </NavLink>
-      <div className="leftTopHeader">
+      {/* <div className="leftTopHeader">
         <ul className="list">
           <div>
             <li>
               <Link className="fb" to="/">
-                <FacebookIcon />
+                <FacebookIcon fontSize="large" />
               </Link>
             </li>
             <li>
               <Link className="ig" to="/">
-                <InstagramIcon />
+                <InstagramIcon fontSize="large" />
               </Link>
             </li>
             <li>
               <Link className="tw" to="/">
-                <TwitterIcon />{" "}
+                <TwitterIcon fontSize="large" />
               </Link>
             </li>
           </div>
         </ul>
-      </div>
+      </div> */}
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ml-auto">
@@ -96,11 +97,11 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <div className="rightTopHeader">
+      {/* <div className="rightTopHeader">
         <Button className="loginBtn" variant="contained" color="primary">
           Join us
         </Button>
-      </div>
+      </div> */}
       <button
         className="navbar-toggler"
         onClick={function () {
