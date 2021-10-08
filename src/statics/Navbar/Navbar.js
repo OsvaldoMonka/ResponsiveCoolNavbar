@@ -73,6 +73,22 @@ const Navbar = () => {
           </div>
         </ul>
       </div> */}
+      <button
+        className="navbar-toggler"
+        onClick={function () {
+          setTimeout(function () {
+            animation();
+          });
+        }}
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i className="fas fa-bars text-white"></i>
+      </button>
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ml-auto">
@@ -102,22 +118,6 @@ const Navbar = () => {
           Join us
         </Button>
       </div> */}
-      <button
-        className="navbar-toggler"
-        onClick={function () {
-          setTimeout(function () {
-            animation();
-          });
-        }}
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <i className="fas fa-bars text-white"></i>
-      </button>
     </nav>
   );
 };
